@@ -54,10 +54,10 @@ public class OptionsUI : MonoBehaviour
             MusicManager.Instance.ChangeVolume();
             UpdateVisual();
         });
-        closeButton.onClick.AddListener(() =>
-        {
-            Hide();
-        });
+        //closeButton.onClick.AddListener(() =>
+        //{
+        //    Hide();
+        //});
 
         closeButton.onClick.AddListener(() =>
         {
